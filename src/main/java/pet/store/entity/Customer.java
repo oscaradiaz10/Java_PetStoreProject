@@ -2,7 +2,6 @@ package pet.store.entity;
 
 import java.util.HashSet;
 import java.util.Set;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,7 +19,7 @@ public class Customer {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long customerId;
-	private String cutomerFirstName;
+	private String customerFirstName;
 	private String customerLastName;
 	private String customerEmail;
 	
