@@ -21,13 +21,13 @@ public class PetStore {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long storeId;
-	private String storeName;
-	private String storeAddress;
-	private String storeCity;
-	private String storeState;
-	private String storeZip;
-	private String storePhone;
+	private Long petStoreId;
+	private String petStoreName;
+	private String petStoreAddress;
+	private String petStoreCity;
+	private String petStoreState;
+	private String petStoreZip;
+	private String petStorePhone;
 	
 	@ManyToMany(cascade = CascadeType.PERSIST)
 	@JoinTable(name = "pet_store_customer", 

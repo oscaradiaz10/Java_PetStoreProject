@@ -1,0 +1,8 @@
+ {
+  "petStoreName": "Amazing Pet Store",
+  "petStoreAddress": "423 Main Ave",
+  "petStoreCity": "Des Moines",
+  "petStoreState": "Iowa",
+  "petStoreZip": "12345",
+  "petStorePhone": "303-322-4995"
+}
